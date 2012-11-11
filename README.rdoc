@@ -1,9 +1,9 @@
-rails new lab --database=postgres
+<tt>rails new lab --database=postgres</tt>
 # lab/config/database.yml redacted developers
-rake db:create
+<tt>rake db:create</tt>
 # look pgAdmin and see new database
 #use scaffold
-rails g scaffold news title:string author:string article:text
+<tt>rails g scaffold news title:string author:string article:text</tt>
 # use rake -T for print list rake
-rake db:migrate
-rake db:schema:load
+<tt>rake db:migrate</tt>
+<tt>rake db:schema:load</tt>
