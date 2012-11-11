@@ -1,9 +1,10 @@
+== Action
 <tt>rails new lab --database=postgres</tt>
-# lab/config/database.yml redacted developers
+lab/config/database.yml redacted developers
 <tt>rake db:create</tt>
-# look pgAdmin and see new database
-#use scaffold
+look pgAdmin and see new database
+use scaffold
 <tt>rails g scaffold news title:string author:string article:text</tt>
-# use rake -T for print list rake
+use <tt>rake -T</tt> for print list rake
 <tt>rake db:migrate</tt>
 <tt>rake db:schema:load</tt>
