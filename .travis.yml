@@ -9,4 +9,5 @@
  before_script: 	
 \ No newline at end of file
  - psql -c 'create database news' -U postgres
+ - psql -c 'create user login with password 1234' -U postgres
 \ No newline at end of file
