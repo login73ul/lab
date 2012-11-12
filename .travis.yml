@@ -8,5 +8,5 @@
  - RAILS_ENV=test bundle exec rake --trace db:migrate test	
  before_script: 	
 \ No newline at end of file
- - psql -c 'create database news' -U postgres
+ - psql -c 'create database news_test' -U postgres
 \ No newline at end of file
