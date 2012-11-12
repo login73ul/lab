@@ -1,0 +1,12 @@
+@@ -1,8 +1,9 @@
+ language: ruby
+ rvm:
+   - 1.9.3	
+ env:
+   - DB=postgresql	
+ script:	
+ - RAILS_ENV=test bundle exec rake --trace db:migrate test	
+ before_script: 	
+\ No newline at end of file
+ - psql -c 'create database news' -U postgres
+\ No newline at end of file
