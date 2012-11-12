@@ -3,7 +3,7 @@ rvm:
 - 1.9.3
 env:
 - DB=postgresql
-script:	
+script:
 - RAILS_ENV=test bundle exec rake --trace db:migrate test
 before_script:
 - psql -c 'create database news_test' -U postgres
