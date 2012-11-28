@@ -3,9 +3,11 @@
 one:
   title: MyString
   author: MyString
-  article: 
+  article: MyText
+  state: MyString
 
 two:
   title: MyString
   author: MyString
-  article: 
+  article: MyText
+  state: MyString

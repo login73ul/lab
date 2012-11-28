@@ -18,7 +18,7 @@ class NewsControllerTest < ActionController::TestCase
 
   test "should create news" do
     assert_difference('News.count') do
-      post :create, news: { article: @news.article, author: @news.author, title: @news.title }
+      post :create, news: { article: @news.article, author: @news.author, state: @news.state, title: @news.title }
     end
 
     assert_redirected_to news_path(assigns(:news))
@@ -35,7 +35,7 @@ class NewsControllerTest < ActionController::TestCase
   end
 
   test "should update news" do
-    put :update, id: @news, news: { article: @news.article, author: @news.author, title: @news.title }
+    put :update, id: @news, news: { article: @news.article, author: @news.author, state: @news.state, title: @news.title }
     assert_redirected_to news_path(assigns(:news))
   end
 
