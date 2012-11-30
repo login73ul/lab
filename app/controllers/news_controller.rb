@@ -10,6 +10,15 @@ class NewsController < ApplicationController
     end
   end
 
+  def change_state
+      @news = News.find(params[:news_id])
+      if @news
+        @news.fire_state_event(params[:news])
+        @news.save
+      end
+      redirect_to news_index_path
+  end
+
   # GET /news/1
   # GET /news/1.json
   def show

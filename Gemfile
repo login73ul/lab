@@ -22,6 +22,7 @@ end
 
 gem 'jquery-rails'
 gem 'state_machine'
+gem 'ruby-graphviz', :require => 'graphviz' # Optional: only required for graphing
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
