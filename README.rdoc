@@ -1,3 +1,3 @@
 ==Лабораторная работа №3 СПО
 
-https://travis-ci.org/login73ul/lab
+{<img src="https://travis-ci.org/login73ul/lab.png" />}[https://travis-ci.org/login73ul/lab]
