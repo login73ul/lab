@@ -1,4 +1,4 @@
-require 'simlecov'
+require 'simplecov'
 SimpleCov.start
 
 ENV["RAILS_ENV"] = "test"
