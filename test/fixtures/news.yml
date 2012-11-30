@@ -4,10 +4,9 @@ one:
   title: MyString
   author: MyString
   article: MyText
-  state: MyString
+  state: unpublished
 
 two:
   title: MyString
   author: MyString
   article: MyText
-  state: MyString
