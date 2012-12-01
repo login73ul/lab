@@ -49,7 +49,6 @@ class NewsControllerTest < ActionController::TestCase
   
   test "should put change_state" do
      put :change_state, news_id: @news.id, news: "delete"
-     assert @news.deleted?
      assert_redirected_to news_index_path
    end
 end
